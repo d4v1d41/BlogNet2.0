@@ -28,7 +28,7 @@ if (SignInManager.IsSignedIn(User))
 
 <div class="general-posts">
     <div class="user-info">
-        <h2 style="text-align:center;">@Html.DisplayFor(modelItem => item.Title) - @Html.DisplayFor(modelItem => item.Time) years</h2>
+        <h2 style="text-align:center;">@Html.DisplayFor(modelItem => item.Title) - @Html.DisplayFor(modelItem => item.Time) year/s</h2>
         <img style="display:block; margin-left:auto; margin-right:auto; width:30%;height:30%" src="@Html.DisplayFor(modelItem => item.UrlPic)" alt="" class="image-spacing">
         <p style="text-align: center;margin-left:20%;margin-right:20%;" class="no-space"><strong>@item.Description.Substring(0,40)...</strong></p>
      </div>
